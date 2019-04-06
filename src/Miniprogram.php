@@ -18,5 +18,8 @@ class Miniprogram{
     public function auth($code){
         return $this->client->auth($code);
     }
+    public function decryptData($session_key, $encryptedData, $iv){
+        return $this->client->decryptData($session_key, $encryptedData, $iv);
+    }
 }
 ?>
