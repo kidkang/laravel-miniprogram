@@ -1,0 +1,27 @@
+{
+    "name": "kidkang/laravel-miniprogram",
+    "description": "laracel mini program",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kidkang",
+            "email": "723616880@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "kidkang/miniprogram":"1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kd\\Lminiprogram\\":"src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.laravel-china.org"
+        }
+    }
+}
